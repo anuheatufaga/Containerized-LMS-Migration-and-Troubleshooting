@@ -29,8 +29,8 @@ The goal is to gain hands-on experience troubleshooting real-world container iss
 <h2>Program walk-through:</h2>
 
 <p align="center">
-After setting up the AWS Account, create roles in ECS so that it can interact with the AWS Services securely. <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>- After setting up the AWS Account, create roles in ECS so that it can interact with the AWS Services securely. The trusted entity type will be "AWS Service," and the Service or use case will be "Elastic Container Service."</h3> <br/>
+<img src="screenshots/Screenshot 2026-10-27 145833.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
