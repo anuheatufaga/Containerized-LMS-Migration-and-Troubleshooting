@@ -58,7 +58,7 @@ The goal is to gain hands-on experience troubleshooting real-world container iss
 <img src="screenshots/Containerized LMS Migration and Troubleshooting/Screenshot 2026-10-18 155839.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-The second security group created:  <br/>
+<h4>The second security group created:  <br/>
 "EduTech-Container-SG" <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;-Description: "Allow web traffic to containers." <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- VPC: "EduTech-VPC" <br/>
@@ -68,7 +68,11 @@ The second security group created:  <br/>
 <img src="screenshots/Containerized LMS Migration and Troubleshooting/Screenshot 2026-10-18 160412.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
+<h4> Now that the AWS environment is set up, the next section will be establishing the LMS frontend in a containerized version. First the ECR Repository will need to be created.  <br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;`edutech-lms-frontend` -Repository Name: `edutech-lms-frontend` along with default settings<br/>
+ <img src=" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ 
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
