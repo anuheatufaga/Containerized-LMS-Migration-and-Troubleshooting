@@ -47,18 +47,24 @@ The goal is to gain hands-on experience troubleshooting real-world container iss
 <img src="screenshots/Screenshot 2026-10-27 153333.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<h4>Now security groups need to be configured in order to control the allowed network traffic. Two security groups will be created.<br/>
+<h4>Now security groups need to be configured in order to control the allowed network traffic as well as add an extra layer of security. The first security group created: <br/>
  <br/>
-  -"EduTech-ALB-SG" - the Application Load Balancer (ALB) <br/>
-    - Description: "Allow web traffic to our load balancer." <br/>
-    - VPC: "EduTech-VPC" <br/>
-    - Inbound Rules: <br/>
-       - Type: HTTP; Source: Anywhere <br/>
-       - Type: HTTPS; Source: Anywhere <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+"EduTech-ALB-SG" - the Application Load Balancer (ALB) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- Description: "Allow web traffic to our load balancer." <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- VPC: "EduTech-VPC" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- Inbound Rules: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Type: HTTP; Source: Anywhere <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Type: HTTPS; Source: Anywhere <br/>
+<img src="screenshots/Containerized LMS Migration and Troubleshooting/Screenshot 2026-10-18 155839.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+The second security group created:  <br/>
+"EduTech-Container-SG" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;-Description: "Allow web traffic to containers." <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- VPC: "EduTech-VPC" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- Inbound Rules: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Type: Custom TCP; Port: 3000; Source: EduTech-ALB-SG  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Type: HTTPS; Source: Anywhere <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
