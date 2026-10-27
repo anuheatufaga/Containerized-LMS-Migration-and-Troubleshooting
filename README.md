@@ -65,7 +65,7 @@ The second security group created:  <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Inbound Rules: <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Type: Custom TCP; Port: 3000; Source: EduTech-ALB-SG  <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Type: HTTPS; Source: Anywhere <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="screenshots/Containerized LMS Migration and Troubleshooting/Screenshot 2026-10-18 160412.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
