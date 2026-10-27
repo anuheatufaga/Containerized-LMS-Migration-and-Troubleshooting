@@ -29,11 +29,11 @@ The goal is to gain hands-on experience troubleshooting real-world container iss
 <h2>Program walk-through:</h2>
 
 <p align="center">
-<h3>- After setting up the AWS Account, create roles in ECS so that it can interact with the AWS Services securely. The trusted entity type will be "AWS Service," and the Service or use case will be "Elastic Container Service."</h3> <br/>
+<h4>- After setting up the AWS Account, create roles in ECS so that it can interact with the AWS Services securely. The trusted entity type will be "AWS Service," and the Service or use case will be "Elastic Container Service." The name of this role is "EduTech-ECS-Service-Role." </h4> <br/>
 <img src="screenshots/Screenshot 2026-10-27 145833.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
+<h4>The next role that will be created is "EduTech-ECS-Task-Role." Again, the trusted entity type will be "AWS Service," and the Service or use case will be "Elastic Container Service," but the use case will be "Elastic Container Service Task." The permissions that need to be added are "AmazonECSTaskExecutionRolePolicy" and "CloudWatchLogsFullAccess." Once that is all done, the role can be created.</h4>  <br/>
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
