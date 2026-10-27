@@ -44,10 +44,17 @@ The goal is to gain hands-on experience troubleshooting real-world container iss
   - Private Subnets: 0<br/>
   - NAT Gateways: None<br/>
   - VPC Endpoints: None<br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="screenshots/Screenshot 2026-10-27 153333.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
+<h4>Now security groups need to be configured in order to control the allowed network traffic. Two security groups will be created.<br/>
+ <br/>
+  -"EduTech-ALB-SG" - the Application Load Balancer (ALB) <br/>
+    - Description: "Allow web traffic to our load balancer." <br/>
+    - VPC: "EduTech-VPC" <br/>
+    - Inbound Rules: <br/>
+       - Type: HTTP; Source: Anywhere <br/>
+       - Type: HTTPS; Source: Anywhere <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
