@@ -73,8 +73,8 @@ The goal is to gain hands-on experience troubleshooting real-world container iss
 <img src="screenshots/Screenshot 2026-10-27 164241.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br/>
  <br/>
  <br/>
- Now AWS will need to be installed in order to set up the tools needed to push the container images. Ensure the aws --version is installed and use your credentials.
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Now AWS will need to be installed in order to set up the tools needed to push the container images. Ensure the aws --version is installed and use your credentials for configuration. <br/>
+<img src="screenshots/Containerized LMS Migration and Troubleshooting/Screenshot 2026-10-18 165039.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
