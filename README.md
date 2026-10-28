@@ -44,7 +44,7 @@ The goal is to gain hands-on experience troubleshooting real-world container iss
   - Private Subnets: 0<br/>
   - NAT Gateways: None<br/>
   - VPC Endpoints: None<br/>
-<img src="screenshots/Screenshot 2026-10-27 153333.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="screenshots/Screenshot 2026-10-27 153333.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h4>Now security groups need to be configured in order to control the allowed network traffic as well as add an extra layer of security. The first security group created: <br/>
