@@ -77,8 +77,10 @@ The goal is to gain hands-on experience troubleshooting real-world container iss
 <img src="screenshots/Containerized LMS Migration and Troubleshooting/Screenshot 2026-10-18 165039.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br/>
  <br/>
-<img src="sscreenshots/Containerized LMS Migration and Troubleshooting/Screenshot 2026-10-18 174618.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- Next, download and install Docker and verify it is the "docker --version." Ensure it is running and test with "docker run hello-world."
+<img src="screenshots/Containerized LMS Migration and Troubleshooting/Screenshot 2026-10-18 174618.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <br/>
+</h4>Next, download and install Docker and verify it is the "docker --version." Ensure it is running and test with "docker run hello-world."
+<img src=" screenshots/Containerized LMS Migration and Troubleshooting/Screenshot 2026-10-18 171913.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 <br />
 Observe the wiped disk:  <br/>
